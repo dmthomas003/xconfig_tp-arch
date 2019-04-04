@@ -1,0 +1,7 @@
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources &
+feh --bg-scale ~/Desktop/Pictures/wallpapers/arch_mkpkg.jpg
+xscreensaver -no-splash &
+(sleep 1 && xcompmgr) &
+xmobar &
+exec xmonad
+
